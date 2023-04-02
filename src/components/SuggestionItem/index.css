@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.suggestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.para {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.arrow {
+  height: 30px;
+  width: 30px;
+}
