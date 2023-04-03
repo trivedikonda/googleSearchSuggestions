@@ -2,7 +2,7 @@
 import './index.css'
 
 const SuggestionItem = props => {
-  const {suggestion, showFilteredSuggestions} = props
+  const {suggestionDetails, showFilteredSuggestions} = props
 
   const onClickArrow = () => {
     showFilteredSuggestions(suggestion)
