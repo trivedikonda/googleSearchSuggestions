@@ -52,7 +52,7 @@ class GoogleSuggestions extends Component {
             {filteredList.map(eachSearch => (
               <SuggestionItem
                 key={eachSearch.id}
-                suggestion={eachSearch}
+                suggestionDetails={eachSearch}
                 showFilteredSuggestions={this.showFilteredSuggestions}
               />
             ))}
